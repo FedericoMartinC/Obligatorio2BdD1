@@ -62,6 +62,7 @@ CREATE TABLE Compra (
 );
 
 
+//INICIO DE PRUEBAS
 -- Insertar datos en la tabla Asistente
 INSERT INTO Asistente (idAsistente, nombre, genero) 
 VALUES (1, 'Alexa', 'Femenino');
@@ -179,5 +180,6 @@ VALUES (4, 'pedro.ramos@example.com', TO_DATE('2024-05-11', 'YYYY-MM-DD'), 120, 
 INSERT INTO Compra (idConfiguracion, email, fechaCompra, totalGemas, totalMonedas) 
 VALUES (5, 'lucia.sanchez@example.com', TO_DATE('2024-03-01', 'YYYY-MM-DD'), 170, 210); -- Compra realizada por Lucia Sanchez
 
+//FIN CASOS DE PRUEBAS
 
 
